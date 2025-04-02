@@ -10,7 +10,7 @@
    "scripts": {
       "build": "tsc",
       "start": "node dist/cli.js",
-      "dev": "ts-node-esm src/cli.ts",
+      "dev": "node ./dist/index.js",
       "test": "NODE_OPTIONS=--experimental-vm-modules jest"
    },
    "keywords": [
